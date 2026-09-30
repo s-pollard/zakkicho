@@ -14,26 +14,16 @@ breadcrumbs:
   - label: "persona 3 reloaded"
 ---
 
-<pre class="raw-note">persona 3 reloaded
+<pre class="raw-note">
+persona 3 reloaded
 
-status
-    playing
-
-platform
-    bazzite
-        tons of issues
-        when i open the game it opens a small box in which seems impossible to get to go away
-        i set the display resolution to something larger
-            stays tiny
-        try to set to fullscreen
-            still opens in tiny window
-        tried many proton versions
-    windows
-        mainly played before i did the full switch to linux
-        no issues
-
-playtime
-    20 hours
+platform: steam
+playtime: 20 hours
+status: playing
+last played: sep 2026
+perspective: third person
+developer: p-studio
+release year: 2024
 
 progress
     slow due to life

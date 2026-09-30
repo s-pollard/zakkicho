@@ -19,7 +19,7 @@ death stranding 2
 
 platform: playstation 5
 playtime: 90 hours
-progress: completed
+status: completed
 last played: july 2025
 perspective: third person
 developer: kojima productions
@@ -154,7 +154,10 @@ death stranding 2
     truly a wonderful game that i think is better than the first
         an all time game for me
     i would not say it is perfection
-    it just hits, and it rarely misses</pre>
+    it just hits, and it rarely misses
+    
+    
+    </pre>
 
 <div class="meta note-footer">
 created: 2026.09.30

@@ -17,23 +17,23 @@ the gem
 2026
 
 brand new
-    7
+  7
 god sometimes
-
+  5
 if i had the hand of god
-
+  7
 the hardest thing
-
+  6
 angel vision
-
+  5
 real life
-
+  6
 get away from me (i think i'll love you soon)
-
+  6
 you turned on the tap
-
+  5
 walk on me
-
+  
 i wish
 
 

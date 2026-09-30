@@ -24,7 +24,7 @@ $FOAM_TITLE
 
 platform: 
 playtime: 
-progress: 
+status: 
 last played: 
 perspective: 
 developer: 

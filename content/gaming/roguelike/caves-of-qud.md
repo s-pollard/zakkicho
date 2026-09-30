@@ -14,27 +14,16 @@ breadcrumbs:
   - label: "caves of qud"
 ---
 
-<pre class="raw-note">caves of qud
+<pre class="raw-note">
+caves of qud
 
-status
-    playing
-
-platform
-    bazzite
-        plays wonderfully
-        no issues
-    steam deck OLED
-        need to find a control scheme for as roguelike, lol
-            i think i found one, but i might just give up since playing with keyboard is so much better
-
-playtime
-    2 hours
-
-progress
-    i have no idea what i am doing right now
-    completed the "tutorial"
-    did a few runs after that
-    did a character that respawns at the settlements
+platform: steam
+playtime: 1 hour
+status: playing
+last played: sep 2026
+perspective: top down
+developer: freehold games
+release year: 2010
 
 thoughts
     gameplay
@@ -61,9 +50,7 @@ thoughts
                 was not attached to the character
                 took too many risks
 
-related
-    paths-of-achra
-    00-index</pre>
+/pre>
 
 <div class="meta note-footer">
 created: 2026.09.30

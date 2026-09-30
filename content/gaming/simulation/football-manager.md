@@ -14,31 +14,28 @@ breadcrumbs:
   - label: "football manager"
 ---
 
-<pre class="raw-note">football manager
+<pre class="raw-note">
+football manager
 
-platform
-    steam
-
-progress
-    dropped
-
-playtime
-    football manager 13 ~ 618 hours
-    football manager 14 ~ 751 hours
-    football manager 15 ~ 1,130 hours
-    football manager 16 ~ 600 hours
-    football manager 17 ~ 752 hours
-    football manager 18 ~ 1,168 hours
-    football manager 19 ~ 913 hours
-    football manager 20 ~ 203 hours
-    football manager 21 ~ 210 hours
-    football manager 22 ~ 650 hours
-    football manager 24 ~ 3 hours
-    football manager 26 ~ 12 hours
-        time includes idle time
-
-perspective
-    spreadsheet simulator
+platform: steam
+playtime: 
+    football manager 13: 618 hours
+    football manager 14: 751 hours
+    football manager 15: 1,130 hours
+    football manager 16: 600 hours
+    football manager 17: 752 hours
+    football manager 18: 1,168 hours
+    football manager 19: 913 hours
+    football manager 20: 203 hours
+    football manager 21: 210 hours
+    football manager 22: 650 hours
+    football manager 24: 3 hours
+    football manager 26: 12 hours
+progress: dropped
+last played: may 2026
+perspective: spreadsheet
+developer: sports interactive
+release year: 2012
 
 sound
     i turn it off

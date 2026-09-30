@@ -14,25 +14,16 @@ breadcrumbs:
   - label: "path of achra"
 ---
 
-<pre class="raw-note">path of achra
+<pre class="raw-note">
+path of achra
 
-status
-    playing
-
-platform
-    bazzite
-        plays well
-    steam deck
-        a little weird to control
-        i started with the track pad to select, and l2 to progress
-            i think using the touch screen is better for somethings
-
-playtime
-    2 hours
-
-progress
-    i have unlocked maybe half the page
-    i have yet to 'win' a run
+platform: steam
+playtime: 2 hours
+status: playing
+last played: sep 2026
+perspective: top down
+developer: ulfsire
+release year: 2023
 
 thoughts
     this was a surprising game for me

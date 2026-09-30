@@ -14,23 +14,16 @@ breadcrumbs:
   - label: "bloons tower defense 6"
 ---
 
-<pre class="raw-note">bloons tower defense 6
+<pre class="raw-note">
+bloons tower defense 6
 
-platform
-    steam
-    phone
-
-playtime
-    ~400 hours
-
-progress
-    many black borders
-
-last played
-    sep 2026
-
-perspective
-    top down
+platform: steam, phone
+playtime: 400 hours
+status: playing
+last played: sep 2026
+perspective: top down
+developer: ninja kiwi / isometric style 3d
+release year: 2023
 
 maps
     i like the variety of maps

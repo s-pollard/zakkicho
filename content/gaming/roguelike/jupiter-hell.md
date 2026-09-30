@@ -14,22 +14,16 @@ breadcrumbs:
   - label: "jupiter hell"
 ---
 
-<pre class="raw-note">jupiter hell
+<pre class="raw-note">
+jupiter hell
 
-status
-    playing
-
-platform
-    steam
-        bazzite
-            no issues so far
-            runs well
-
-playtime
-    less than an hour
-
-progress
-    a few runs
+platform: steam
+playtime: 1 hour
+status: playing
+last played: sep 2026
+perspective: top down
+developer: chaosforge
+release year: 2019
 
 thoughts
     long range combat
@@ -45,9 +39,7 @@ controls
         the keys make sense
             if anything i keep hitting target instead of fire.
                 skill issue
-
-related
-    none so far</pre>
+</pre>
 
 <div class="meta note-footer">
 created: 2026.09.30

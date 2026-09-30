@@ -14,16 +14,16 @@ breadcrumbs:
   - label: "metaphor: refantazio"
 ---
 
-<pre class="raw-note">metaphor: refantazio
+<pre class="raw-note">
+metaphor: refantazio
 
-playtime
-    ~60 hours
-
-progress
-    completed
-
-last played
-    may 2025
+platform: steam
+playtime: 60 hours
+status: completed
+last played: may 2025
+perspective: third person
+developer: studio zero
+release year: 2024
 
 sound
     typical ui sounds for an atlus game

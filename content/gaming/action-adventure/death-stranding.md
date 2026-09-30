@@ -18,34 +18,13 @@ breadcrumbs:
 death stranding
 death stranding director's cut
 
-platform
-    steam
-    playstation
-        started, never finished.
-
-playtime
-    ~220 hours
-        includes idle time
-        combines director's cut / regular
-        no playstation time
-
-last played
-    jan 2023
-        most of this will be from memory
-
-progress
-    completed
-
-playstation
-    i started playing death strangin when it came out
-        dropped because life got in the way
-        forgot about the game untill the PC version was released.
-
-steam
-    i have both the director's cut, and the regular version
-
-perspective
-    third person
+platform: steam, playstation 5
+playtime: 220 hours
+status: completed
+last played: jan 2023
+perspective: third person
+developer: kojima productions
+release year: 2019
 
 sound
     soundtrack

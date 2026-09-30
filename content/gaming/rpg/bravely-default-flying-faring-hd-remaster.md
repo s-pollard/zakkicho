@@ -14,29 +14,16 @@ breadcrumbs:
   - label: "bravely default flying faring hd remaster"
 ---
 
-<pre class="raw-note">bravely default flying faring hd remaster
+<pre class="raw-note">
+bravely default flying fairy hd remaster
 
-status
-    playing
-
-platform
-    steam
-        steam deck OLED
-            main way of playing
-                i have not noticed any issues with it
-                not expected to have issues
-                playing stock
-                45hz frame rate set
-        steam machine
-
-playtime
-    four hours
-
-progress
-    currently chapter 1
-        getting my ass kicked by some dude throwing coins at me
-
-    progress overall is slow because i started up a palworld server and have been spending time there instead
+platform: steam
+playtime: 5 hours
+status: playing
+last played: sep 2026
+perspective: top-down, isometric 3D
+developer: square enix
+release year: 2025
 
 thoughts
     Story so far is okay
