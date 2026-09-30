@@ -11,25 +11,21 @@ breadcrumbs:
   - label: "death cab for cutie — the georgia ep"
 ---
 
-<pre class="raw-note">death cab for cutie
+<pre class="raw-note">
+death cab for cutie
 the georgia ep
 2021
-
-rating 7.4
+7.4
 
 waterfalls
   8
-
 the king of carrot flowers, pt one
   8
-
 fall on me
   6
-
 flirted with you all my life
   9
-  a great track
-
+    a great track
 metal heart
   6
 

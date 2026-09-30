@@ -11,36 +11,28 @@ breadcrumbs:
   - label: "frank zappa — one size fits all"
 ---
 
-<pre class="raw-note">frank zappa
+<pre class="raw-note">
+frank zappa
 one size fits all
 1975
-
-rating: 8.22
+8.22
 
 inca roads
   8
-
 can't afford no shoes
   7
-
 sofa no. 1
   10
-
 po-jama people
   9
-
 florentine pogen
   8
-
 evelyn, a modified dog
   6
-
 san ber'dino
   8
-
 andy
   8
-
 sofa no.2
   10
 

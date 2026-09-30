@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>site map</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/css/style.css?v=20260930-2">
+</head>
+
+<body>
+  <aside>
+    <nav>
+  <a href="/" >home</a>
+  <a href="/gaming/" >gaming</a>
+  <a href="/movies/" >movies</a>
+  <a href="/music/" >music</a>
+  <a href="/photography/" >photography</a>
+  <a href="/about/" >about</a>
+
+
+  <a href="/sitemap/" class="active">site map</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="breadcrumbs">
+      
+        
+          
+            <a href="/">home</a>
+          
+
+           &gt; 
+        
+          
+            site map
+          
+
+          
+        
+      
+    </div>
+
+    
+<h1>site map</h1>
+
+<pre class="site-map"><a href="/">zakkicho.net/</a>
+├── <a href="/gaming/">gaming/</a>
+│   ├── <a href="/gaming/action-adventure/">action-adventure/</a>
+│   │   ├── <a href="/gaming/action-adventure/dark-souls/">dark souls</a>
+│   │   ├── <a href="/gaming/action-adventure/dark-souls-2/">dark souls 2</a>
+│   │   ├── <a href="/gaming/action-adventure/death-stranding/">death stranding</a>
+│   │   └── <a href="/gaming/action-adventure/death-stranding-2/">death stranding 2</a>
+│   ├── <a href="/gaming/hardware/">hardware/</a>
+│   │   ├── <a href="/gaming/hardware/valve-steam-deck-oled/">valve steam deck oled</a>
+│   │   └── <a href="/gaming/hardware/valve-steam-machine/">valve steam machine</a>
+│   ├── <a href="/gaming/roguelike/">roguelike/</a>
+│   │   ├── <a href="/gaming/roguelike/caves-of-qud/">caves of qud</a>
+│   │   ├── <a href="/gaming/roguelike/jupiter-hell/">jupiter hell</a>
+│   │   └── <a href="/gaming/roguelike/paths-of-achra/">path of achra</a>
+│   ├── <a href="/gaming/rpg/">rpg/</a>
+│   │   ├── <a href="/gaming/rpg/bravely-default-flying-faring-hd-remaster/">bravely default flying faring hd remaster</a>
+│   │   ├── <a href="/gaming/rpg/clair-obscur-expedition-33/">clair obscur expedition 33</a>
+│   │   ├── <a href="/gaming/rpg/metaphor-refantazio/">metaphor: refantazio</a>
+│   │   ├── <a href="/gaming/rpg/path-of-exile/">path of exile</a>
+│   │   ├── <a href="/gaming/rpg/path-of-exile-2/">path of exile 2</a>
+│   │   ├── <a href="/gaming/rpg/persona-3-reloaded/">persona 3 reloaded</a>
+│   │   └── <a href="/gaming/rpg/shin-megami-tensei-v/">shin megami tensei v vengeance</a>
+│   ├── <a href="/gaming/simulation/">simulation/</a>
+│   │   └── <a href="/gaming/simulation/football-manager/">football manager</a>
+│   ├── <a href="/gaming/strategy/">strategy/</a>
+│   │   └── <a href="/gaming/strategy/bloons-tower-defense-6/">bloons tower defense 6</a>
+│   └── <a href="/gaming/survival/">survival/</a>
+│       ├── <a href="/gaming/survival/palworld/">palworld</a>
+│       └── <a href="/gaming/survival/valheim/">valheim</a>
+├── <a href="/movies/">movies</a>
+├── <a href="/music/">music/</a>
+│   ├── <a href="/music/benny-sings-22-durnham-dew/">benny sings — 22 durnham dew</a>
+│   ├── <a href="/music/bon-iver-sable-fable/">bon iver — sable, fable</a>
+│   ├── <a href="/music/death-cab-for-cutie-the-georgia-ep/">death cab for cutie — the georgia ep</a>
+│   ├── <a href="/music/frank-zappa-one-size-fits-all/">frank zappa — one size fits all</a>
+│   ├── <a href="/music/glass-animals-dreamland-stripped-back/">glass animals — dreamland (stripped back)</a>
+│   ├── <a href="/music/julia-jacklin-the-gem/">julia jacklin the gem</a>
+│   ├── <a href="/music/neutral-milk-hotel-in-the-aeroplane-over-the-sea/">neutral milk hotel — in the aeroplane over the sea</a>
+│   ├── <a href="/music/norah-jones-day-breaks/">norah jones — day breaks</a>
+│   ├── <a href="/music/portugal-the-man-shish/">portugal. the man. — shish</a>
+│   ├── <a href="/music/getz-gilberto-number-2-live-at-carnegie-hall-1964/">stan getz — live at carnegie hall 1964</a>
+│   └── <a href="/music/the-klittens-have-a-heart/">the klittens — have a heart</a>
+└── <a href="/photography/">photography</a></pre>
+  </main>
+  <script>
+document.querySelectorAll(".raw-note").forEach(note => {
+  const lines = note.textContent.replace(/\n$/, "").split("\n");
+
+  note.textContent = "";
+
+  lines.forEach(line => {
+    const match = line.match(/^(\s*)(.*)$/);
+    const spaces = match[1].replace(/\t/g, "    ").length;
+    const text = match[2];
+
+    const row = document.createElement("span");
+    row.className = "raw-line";
+    row.style.setProperty("--indent", spaces);
+
+    if (text === "") {
+      row.innerHTML = "&nbsp;";
+    } else {
+      row.textContent = text;
+    }
+
+    note.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>

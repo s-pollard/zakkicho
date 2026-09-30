@@ -11,18 +11,16 @@ breadcrumbs:
   - label: "glass animals — dreamland (stripped back)"
 ---
 
-<pre class="raw-note">glass animals
+<pre class="raw-note">
+glass animals
 dreamland (stripped back)
 2020
-
-rating: 8
+8
 
 heat waves (stripped back)
   8
-
 your love (deja vu)
   9
-
 space ghost coast to coast (stripped back)
   7
 

@@ -15,16 +15,18 @@ breadcrumbs:
   - label: "$FOAM_TITLE"
 ---
 
-<pre class="raw-note">$FOAM_TITLE
+<pre class="raw-note">
+$FOAM_TITLE
 
-artist:
-album:
-release year:
-rating:
 
-tracks
 
-thoughts
+
+
+
+
+
+
+
 </pre>
 
 <div class="meta note-footer">

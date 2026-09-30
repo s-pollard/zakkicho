@@ -1,0 +1,15 @@
+---
+layout: base.njk
+title: site map
+breadcrumbs:
+  - label: home
+    url: /
+  - label: site map
+---
+
+<h1>site map</h1>
+
+<pre class="site-map"><a href="/">zakkicho.net/</a>
+{%- for item in collections.all | sitemapLines %}
+{{ item.prefix }}{{ item.branch }}{% if item.url %}<a href="{{ item.url }}">{{ item.title }}{% if item.hasChildren %}/{% endif %}</a>{% else %}{{ item.title }}/{% endif %}
+{%- endfor %}</pre>

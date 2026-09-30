@@ -239,3 +239,18 @@ hr {
   background: rgba(139, 47, 37, 0.18);
   color: var(--ink);
 }
+
+.site-map {
+  font-family:
+    "BIZ UDGothic",
+    "MS Gothic",
+    "ＭＳ ゴシック",
+    monospace;
+
+  line-height: 1.55;
+  white-space: pre;
+}
+
+.nav-util {
+  margin-top: 28px;
+}

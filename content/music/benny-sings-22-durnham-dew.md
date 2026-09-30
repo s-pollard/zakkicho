@@ -11,40 +11,31 @@ breadcrumbs:
   - label: "benny sings — 22 durnham dew"
 ---
 
-<pre class="raw-note">benny sings
+<pre class="raw-note">
+benny sings
 22 durnham dew
 2026
-
-rating:5.8
+5.8
 
 you love me
   7
-
 do not harm
   6
-
 homerun
   6
-
 22 durnham dew
   6
-
 pull yourself together
   7
-  favorite
-
+    favorite
 syllable salad
   5
-
 be myself
   5
-
 parachute
   6
-
 castle
   5
-
 real person
   5
 

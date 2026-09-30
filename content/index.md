@@ -6,5 +6,3 @@ breadcrumbs:
 ---
 
 # homepage
-
-gaming, movies, music, photography, life

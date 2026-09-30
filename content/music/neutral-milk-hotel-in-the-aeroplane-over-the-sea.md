@@ -11,43 +11,33 @@ breadcrumbs:
   - label: "neutral milk hotel — in the aeroplane over the sea"
 ---
 
-<pre class="raw-note">neutral milk hotel
+<pre class="raw-note">
+neutral milk hotel
 in the aeroplane over the sea
 1998
-
-rating: 6.6
+6.6
 
 king of carrot flowers, pt 1
     8
-    favorite track
-
+        favorite track
 king of carrot flower, pt 2 & 3
     5
-
 in the aeroplane over the sea
     7
-
 two-handed boy
     6
-
 the fool
     7
-
 holland, 1945
     7
-
 communist daughter
     7
-
 oh comely
     6
-
 ghost
     7
-
 [untitled]
     7
-    
 two-headed boy, pt 2
     6
 

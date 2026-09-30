@@ -14,7 +14,8 @@ breadcrumbs:
   - label: "death stranding"
 ---
 
-<pre class="raw-note">death stranding
+<pre class="raw-note">
+death stranding
 death stranding director's cut
 
 platform

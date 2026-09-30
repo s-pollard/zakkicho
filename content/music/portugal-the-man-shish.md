@@ -15,37 +15,27 @@ breadcrumbs:
 portugal. the man.
 shish
 2025
-
-rating: 7.1
+7.1
 
 denali
   8
-
 pittman ralliers
   6
-  wtf
-
+    wtf
 angoon
   8
-
 knik
   8
-
 shish
   7
-
 mush
   6
-
 tyonek
   7
-
 kokhanockers
   7
-
 tanana
   7
-
 father gun
   7
 
