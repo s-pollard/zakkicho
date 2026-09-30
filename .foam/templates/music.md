@@ -17,9 +17,7 @@ breadcrumbs:
 
 <pre class="raw-note">
 $FOAM_TITLE
-
-
-
+—
 
 
 

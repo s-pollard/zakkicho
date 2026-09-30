@@ -50,7 +50,7 @@ thoughts
                 was not attached to the character
                 took too many risks
 
-/pre>
+</pre>
 
 <div class="meta note-footer">
 created: 2026.09.30
