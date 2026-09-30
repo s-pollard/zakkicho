@@ -33,7 +33,7 @@ zelda
     5
 
 nothing to teach
-
+    5
 
 triple threat
 

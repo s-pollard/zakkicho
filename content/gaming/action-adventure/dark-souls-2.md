@@ -14,7 +14,7 @@ breadcrumbs:
   - label: "dark souls 2"
 ---
 
-<div class="raw-note">
+<pre class="raw-note">
 dark souls 2
 
 platform: steam
