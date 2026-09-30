@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: action-adventure
+pageClass: index-page
 templateEngineOverride: njk,md
 breadcrumbs:
   - label: home

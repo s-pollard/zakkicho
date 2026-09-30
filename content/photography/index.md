@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: photography
+pageClass: index-page
 templateEngineOverride: njk,md
 breadcrumbs:
   - label: home

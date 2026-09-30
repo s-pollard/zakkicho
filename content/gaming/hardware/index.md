@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: hardware
+pageClass: index-page
 templateEngineOverride: njk,md
 breadcrumbs:
   - label: home
