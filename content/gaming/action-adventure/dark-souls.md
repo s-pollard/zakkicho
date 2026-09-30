@@ -1,10 +1,6 @@
 ---
-foam_template:
-  name: game - action-adventure
-  description: new action-adventure game note
-  filepath: 'content/gaming/action-adventure/$FOAM_SLUG.md'
 layout: base.njk
-title: "$FOAM_TITLE"
+title: "dark souls"
 tags:
   - game
   - action-adventure
@@ -15,10 +11,10 @@ breadcrumbs:
     url: /gaming/
   - label: action-adventure
     url: /gaming/action-adventure/
-  - label: "$FOAM_TITLE"
+  - label: "dark souls"
 ---
 
-# $FOAM_TITLE
+# dark souls
 
 platform:  
 playtime:  
@@ -43,5 +39,5 @@ release year:
 ## related
 
 <div class="meta note-footer">
-created: $FOAM_DATE_YEAR.$FOAM_DATE_MONTH.$FOAM_DATE_DATE
+created: 2026.09.30
 </div>
