@@ -2,7 +2,6 @@
 layout: base.njk
 title: strategy
 pageClass: index-page
-pageClass: index-page
 templateEngineOverride: njk,md
 breadcrumbs:
   - label: home
