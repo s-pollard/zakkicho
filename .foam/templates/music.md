@@ -15,18 +15,17 @@ breadcrumbs:
   - label: "$FOAM_TITLE"
 ---
 
-# $FOAM_TITLE
+<pre class="raw-note">$FOAM_TITLE
 
-<!-- replace the three lines below with artist, album, and year -->
-artist name  
-album title  
-year
-
+artist:
+album:
+release year:
 rating:
 
 tracks
 
 thoughts
+</pre>
 
 <div class="meta note-footer">
 created: $FOAM_DATE_YEAR.$FOAM_DATE_MONTH.$FOAM_DATE_DATE

@@ -1,17 +1,31 @@
 ---
 foam_template:
-  name: Movie
-  description: New movie note
+  name: movie
+  description: new movie note
   filepath: 'content/movies/$FOAM_SLUG.md'
+layout: base.njk
 title: "$FOAM_TITLE"
 tags:
   - movie
+breadcrumbs:
+  - label: home
+    url: /
+  - label: movies
+    url: /movies/
+  - label: "$FOAM_TITLE"
 ---
 
-# $FOAM_TITLE
+<pre class="raw-note">$FOAM_TITLE
 
-## notes
+release year:
+director:
+runtime:
+watched:
+rating:
+
+notes
+</pre>
 
 <div class="meta note-footer">
-created: 2026.09.29
+created: $FOAM_DATE_YEAR.$FOAM_DATE_MONTH.$FOAM_DATE_DATE
 </div>

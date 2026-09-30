@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: "the klittens -- have a heart"
+title: "the klittens — have a heart"
 tags:
   - music
 breadcrumbs:
@@ -8,12 +8,11 @@ breadcrumbs:
     url: /
   - label: music
     url: /music/
-  - label: "the klittens have a heart"
+  - label: "the klittens — have a heart"
 ---
 
 # the klittens have a heart
 
-<!-- replace the three lines below with artist, album, and year -->
 <pre class="raw-note">
 the klittens
 have a heart 
@@ -37,19 +36,19 @@ nothing to teach
     5
 
 triple threat
-
+    5
 
 bank account
-
+    5
 
 interlude ii
-
+    5
 
 blue hue: a short plea
-
+    6
 
 badlands
-
+    5
 
 their house
 
@@ -61,6 +60,7 @@ the frame: a short complaint
 
 
 random homepage click on qobuz
+
 </pre>
 <div class="meta note-footer">
 created: 2026.09.30

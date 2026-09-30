@@ -18,21 +18,24 @@ breadcrumbs:
   - label: "$FOAM_TITLE"
 ---
 
-# $FOAM_TITLE
+<pre class="raw-note">
+$FOAM_TITLE
 
-status
 
-platform
+platform: 
+playtime: 
+progress: 
+last played: 
+perspective: 
+developer: 
+release year: 
 
-playtime
-
-progress
 
 design
 
 world
 
-character
+characters
 
 sound
 
@@ -41,6 +44,7 @@ gameplay
 thoughts
 
 related
+</pre>
 
 <div class="meta note-footer">
 created: $FOAM_DATE_YEAR.$FOAM_DATE_MONTH.$FOAM_DATE_DATE

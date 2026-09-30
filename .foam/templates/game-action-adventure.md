@@ -18,7 +18,7 @@ breadcrumbs:
   - label: "$FOAM_TITLE"
 ---
 
-<div class="raw-note">
+<pre class="raw-note">
 $FOAM_TITLE
 
 
@@ -44,7 +44,7 @@ gameplay
 thoughts
 
 related
-</div>
+</pre>
 
 <div class="meta note-footer">
 created: $FOAM_DATE_YEAR.$FOAM_DATE_MONTH.$FOAM_DATE_DATE
