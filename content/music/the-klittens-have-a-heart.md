@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: "the klittens have a heart"
+title: "the klittens -- have a heart"
 tags:
   - music
 breadcrumbs:
@@ -14,6 +14,7 @@ breadcrumbs:
 # the klittens have a heart
 
 <!-- replace the three lines below with artist, album, and year -->
+<pre class="raw-note">
 the klittens
 have a heart 
 2026
@@ -60,7 +61,7 @@ the frame: a short complaint
 
 
 random homepage click on qobuz
-
+</pre>
 <div class="meta note-footer">
 created: 2026.09.30
 </div>

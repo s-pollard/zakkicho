@@ -43,7 +43,7 @@ gameplay
 thoughts
 
 related
-</div>
+</pre>
 
 <div class="meta note-footer">
 created: 2026.09.30
