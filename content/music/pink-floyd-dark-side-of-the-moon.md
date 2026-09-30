@@ -15,14 +15,14 @@ breadcrumbs:
 pink floyd 
 dark side of the moon
 1973
-9.5
+9.6
 
 speak to me
     na
 breathe (in the air)
     9
 on the run
-    8
+    9
 time
     11
 the great gig in the sky
