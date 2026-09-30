@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: "steely dan — Dpretzel logic"
+title: "steely dan — pretzel logic"
 tags:
   - music
 breadcrumbs:
@@ -15,7 +15,7 @@ breadcrumbs:
 steely dan
 pretzel logic
 9
-—
+
 rikki don't lose that number
     10
 night by night

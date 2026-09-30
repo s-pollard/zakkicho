@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: "steely dan the — royal scam"
+title: "steely dan — the royal scam"
 tags:
   - music
 breadcrumbs:

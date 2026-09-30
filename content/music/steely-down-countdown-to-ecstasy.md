@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: "steely down countdown — to ecstasy"
+title: "steely down — countdown to ecstasy"
 tags:
   - music
 breadcrumbs:
@@ -8,7 +8,7 @@ breadcrumbs:
     url: /
   - label: music
     url: /music/
-  - label: "steely down countdown — to ecstasy"
+  - label: "steely down — countdown to ecstasy"
 ---
 
 <pre class="raw-note">
