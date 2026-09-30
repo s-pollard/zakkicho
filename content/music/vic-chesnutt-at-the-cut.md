@@ -15,7 +15,7 @@ breadcrumbs:
 vic chesnutt 
 at the cut
 2009
-6.6
+6.7
 
 coward
     7
@@ -32,7 +32,7 @@ philip guston
 concord country jubilee
     7
 flirted with you all my life
-    9
+    10
         feels
 it is what it is
     6
