@@ -21,30 +21,45 @@ have a heart
 rating:
 
 have a heart
+    5
 
 taxi
+    7
 
 interlude i
+    5
 
 zelda
+    5
 
 nothing to teach
 
+
 triple threat
+
 
 bank account
 
+
 interlude ii
+
 
 blue hue: a short plea
 
+
 badlands
+
 
 their house
 
+
 fool me once
 
+
 the frame: a short complaint
+
+
+random homepage click on qobuz
 
 <div class="meta note-footer">
 created: 2026.09.30

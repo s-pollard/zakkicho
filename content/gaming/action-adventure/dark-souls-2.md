@@ -17,17 +17,22 @@ breadcrumbs:
 <div class="raw-note">
 dark souls 2
 
-platform:
-playtime:
-progress:
-last played:
-perspective:
-developer:
-release year:
+platform: steam
+playtime: 40 hours
+progress: completed
+last played: 2018
+perspective: third person
+developer: from software
+release year: xxxx 
+
 
 design
+    this is a test
+        a really cool test
 
 world
+    pee pee poo poo
+
 
 characters
 

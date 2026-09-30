@@ -21,13 +21,15 @@ breadcrumbs:
 <div class="raw-note">
 $FOAM_TITLE
 
-platform:
-playtime:
-progress:
-last played:
-perspective:
-developer:
-release year:
+
+platform: 
+playtime: 
+progress: 
+last played: 
+perspective: 
+developer: 
+release year: 
+
 
 design
 
