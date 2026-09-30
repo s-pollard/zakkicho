@@ -15,7 +15,7 @@ breadcrumbs:
 pusha t 
 daytona
 2018
-8.8
+8.7
 
 if you know you know
     8
@@ -24,7 +24,7 @@ the games we play
 hard piano 
     9
 come back baby
-    10
+    9
 santeria
     9
 what would meek do? 
