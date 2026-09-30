@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>stan getz — live at carnegie hall 1964</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/css/style.css?v=20260930-2">
+</head>
+
+<body>
+  <aside>
+    <nav>
+  <a href="/" >home</a>
+  <a href="/gaming/" >gaming</a>
+  <a href="/movies/" >movies</a>
+  <a href="/music/" class="active">music</a>
+  <a href="/photography/" >photography</a>
+  <a href="/about/" >about</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="breadcrumbs">
+      
+        
+          
+            <a href="/">home</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/music/">music</a>
+          
+
+           &gt; 
+        
+          
+            stan getz — live at carnegie hall 1964
+          
+
+          
+        
+      
+    </div>
+
+    <pre class="raw-note">stan getz
+live at carnegie hall 1964
+1964
+
+rating: 6.7
+
+grandfather's waltz (live at carnegie hall/1964)
+  7
+
+tonight i shall sleep with a smile on my face (live at carnegie hall/1964)
+  7
+
+stan's blues (live at carnegie hall/1964)
+  6
+
+here's that rainy day (live at carnegie hall/1964)
+  6
+
+samba de minha terra (live at carnegie hall/1964)
+  6
+
+rosa moreno (live at carnegie hall/1964)
+  6
+
+um abraco no bonea (live at carnegie hall/1964)
+  6
+
+bim bom (live at carnegie hall/1964)
+  6
+
+meditation (live at carnegie hall/1964)
+  7
+
+opato (the duck) (live at carnegie hall/1964)
+  7
+
+solid jazz album</pre>
+<div class="meta note-footer">
+created: 2026.09.30
+</div>
+
+  </main>
+  <script>
+document.querySelectorAll(".raw-note").forEach(note => {
+  const lines = note.textContent.replace(/\n$/, "").split("\n");
+
+  note.textContent = "";
+
+  lines.forEach(line => {
+    const match = line.match(/^(\s*)(.*)$/);
+    const spaces = match[1].replace(/\t/g, "    ").length;
+    const text = match[2];
+
+    const row = document.createElement("span");
+    row.className = "raw-line";
+    row.style.setProperty("--indent", spaces);
+
+    if (text === "") {
+      row.innerHTML = "&nbsp;";
+    } else {
+      row.textContent = text;
+    }
+
+    note.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>

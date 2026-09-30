@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>portugal. the man. — shish</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/css/style.css?v=20260930-2">
+</head>
+
+<body>
+  <aside>
+    <nav>
+  <a href="/" >home</a>
+  <a href="/gaming/" >gaming</a>
+  <a href="/movies/" >movies</a>
+  <a href="/music/" class="active">music</a>
+  <a href="/photography/" >photography</a>
+  <a href="/about/" >about</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="breadcrumbs">
+      
+        
+          
+            <a href="/">home</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/music/">music</a>
+          
+
+           &gt; 
+        
+          
+            portugal. the man. — shish
+          
+
+          
+        
+      
+    </div>
+
+    <pre class="raw-note">
+portugal. the man.
+shish
+2025
+
+rating: 7.1
+
+denali
+  8
+
+pittman ralliers
+  6
+  wtf
+
+angoon
+  8
+
+knik
+  8
+
+shish
+  7
+
+mush
+  6
+
+tyonek
+  7
+
+kokhanockers
+  7
+
+tanana
+  7
+
+father gun
+  7
+
+suprisingly good</pre>
+<div class="meta note-footer">
+created: 2026.09.30
+</div>
+
+  </main>
+  <script>
+document.querySelectorAll(".raw-note").forEach(note => {
+  const lines = note.textContent.replace(/\n$/, "").split("\n");
+
+  note.textContent = "";
+
+  lines.forEach(line => {
+    const match = line.match(/^(\s*)(.*)$/);
+    const spaces = match[1].replace(/\t/g, "    ").length;
+    const text = match[2];
+
+    const row = document.createElement("span");
+    row.className = "raw-line";
+    row.style.setProperty("--indent", spaces);
+
+    if (text === "") {
+      row.innerHTML = "&nbsp;";
+    } else {
+      row.textContent = text;
+    }
+
+    note.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>

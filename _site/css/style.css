@@ -1,0 +1,241 @@
+:root {
+  --font-jp: "BIZ UDPGothic", "MS PGothic", "ＭＳ Ｐゴシック",
+             "Noto Sans JP", sans-serif;
+
+  --paper: #f3eddf;
+  --ink: #16130f;
+  --vermilion: #8b2f25;
+  --muted: #726858;
+  --rule: #8d816e;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-jp);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.04em;
+
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  min-height: 100vh;
+
+  background-color: var(--paper);
+  background-image: radial-gradient(
+    rgba(22, 19, 15, 0.035) 0.7px,
+    transparent 0.7px
+  );
+  background-size: 4px 4px;
+
+  color: var(--ink);
+}
+
+aside {
+  padding: 32px 20px;
+  border-right: 1px solid var(--rule);
+}
+
+aside h1 {
+  margin: 0 0 36px 0;
+  font-size: 1.1rem;
+  font-weight: normal;
+  letter-spacing: 0.18em;
+}
+
+nav a {
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: var(--ink);
+  border-left: 3px solid var(--vermilion);
+  padding-left: 8px;
+}
+
+a {
+  color: var(--vermilion);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 36px 52px 64px;
+}
+
+.breadcrumbs {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  letter-spacing: 0.06em;
+  margin-top: 1.5em;
+  margin-bottom: 0.65em;
+}
+
+
+main h1 {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+.note-footer {
+  max-width: 125ch;
+  margin-top: 3em;
+}
+
+h2 {
+  font-size: 1rem;
+  padding-bottom: 5px;
+  border-bottom: 3px double var(--rule);
+  margin-top: 2.2em;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p,
+li {
+  font-size: 1rem;
+}
+
+.breadcrumbs {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 24px;
+  letter-spacing: 0.05em;
+}
+
+ul,
+ol {
+  padding-left: 1.4em;
+}
+
+li {
+  margin-bottom: 0.35em;
+}
+
+ul {
+  list-style-type: square;
+}
+
+
+li::marker {
+  color: var(--vermilion);
+}
+
+main a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(139, 47, 37, 0.35);
+}
+
+main a:hover {
+  border-bottom-color: var(--vermilion);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2em 0;
+}
+
+.meta {
+  font-size: 0.875rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+}
+
+.raw-note {
+  margin: 0;
+  width: 100%;
+  max-width: 125ch;
+
+  font-family:
+    "BIZ UDGothic",
+    "MS Gothic",
+    "ＭＳ ゴシック",
+    monospace;
+
+  font-size: 1rem;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+
+  white-space: normal;
+}
+
+.raw-line {
+  display: block;
+  padding-left: calc(var(--indent) * 1ch);
+}
+
+.note-footer {
+  margin-top: 4em;
+  padding-top: 1em;
+  border-top: 1px solid var(--rule);
+}
+
+.site-footer {
+  margin-top: 4em;
+  padding-bottom: 2em;
+  font-size: 0.8rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 700px) {
+  body {
+    display: block;
+  }
+
+  aside {
+    border-right: 0;
+    border-bottom: 1px solid var(--rule);
+    padding: 20px;
+  }
+
+  aside h1 {
+    margin-bottom: 18px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+  }
+
+  nav a {
+    margin-bottom: 0;
+  }
+
+  nav a.active {
+    border-left: 0;
+    border-bottom: 2px solid var(--vermilion);
+    padding-left: 0;
+  }
+
+  main {
+    padding: 24px 20px;
+    max-width: none;
+  }
+
+  .breadcrumbs {
+    font-size: 0.875rem;
+    margin-bottom: 22px;
+  }
+}
+
+::selection {
+  background: rgba(139, 47, 37, 0.18);
+  color: var(--ink);
+}

@@ -1,0 +1,93 @@
+---
+layout: base.njk
+title: "metaphor: refantazio"
+tags:
+  - game
+  - rpg
+breadcrumbs:
+  - label: home
+    url: /
+  - label: gaming
+    url: /gaming/
+  - label: rpg
+    url: /gaming/rpg/
+  - label: "metaphor: refantazio"
+---
+
+<pre class="raw-note">metaphor: refantazio
+
+playtime
+    ~60 hours
+
+progress
+    completed
+
+last played
+    may 2025
+
+sound
+    typical ui sounds for an atlus game
+        it fits, no issues with it
+    music
+        shoji meguro was in the kitchen cooking up some true bangers
+            fits the world well
+
+design
+    world
+        i liked the world design, it felt like a nice change of pace for an atlus game
+            not in a school
+            not in some broken world
+        fantastical setting
+            everything in the world seems like it should be there
+    characters
+        i like the design of the characters
+        talking protagonist
+            i am not a fan of the silent ones
+            felt more immersed
+                not normally a fan of self insertion into jrpgs
+            
+gameplay
+    press turn basically
+        there is a reason it is the best turn based rpg combat system
+        works well
+        easy to understand
+        rewarding
+    archetypes
+        used instead of the monsters/personas
+        everyone can be any archetype
+            class system basically
+                works well enough
+    calendar management
+        not my favorite, but it is what it is
+            not really an issue unless you are trying to do something specific
+    social links
+        i understand why they are here
+            doesnt mean that i enjoy them
+    dungeons
+        mainline dungeons are awesome
+        optional dungeons are lacking in variety
+
+story
+    it is a typical atlus really
+        and i enjoy them for what they are
+            i enjoyed it because of what i said earlier
+                nice change from the typical atlus games
+            i think it is closer to smt than persona
+                which i prefer
+
+some persona elements creeped into metaphor with the social links and calendar management
+    i think the game would have been better if it dropped it
+        but then it would just be smt:refantazio
+could things be better?
+    of course but then i think it changes the dna of the game
+        i am playing an atlus game because i know what it is going to be
+            unless that is just cope that i just want more smt games
+i think metaphor is a great game, and one that i think people should try out
+    it does mix smt and persona together and it comes out with this fantasy world
+
+at the end of the day where does this rank in j/rpgs
+    for me it is top 15, maybe top 10</pre>
+
+<div class="meta note-footer">
+created: 2026.09.30
+</div>

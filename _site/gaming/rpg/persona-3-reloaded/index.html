@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>persona 3 reloaded</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/css/style.css?v=20260930-2">
+</head>
+
+<body>
+  <aside>
+    <nav>
+  <a href="/" >home</a>
+  <a href="/gaming/" class="active">gaming</a>
+  <a href="/movies/" >movies</a>
+  <a href="/music/" >music</a>
+  <a href="/photography/" >photography</a>
+  <a href="/about/" >about</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="breadcrumbs">
+      
+        
+          
+            <a href="/">home</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/gaming/">gaming</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/gaming/rpg/">rpg</a>
+          
+
+           &gt; 
+        
+          
+            persona 3 reloaded
+          
+
+          
+        
+      
+    </div>
+
+    <pre class="raw-note">persona 3 reloaded
+
+status
+    playing
+
+platform
+    bazzite
+        tons of issues
+        when i open the game it opens a small box in which seems impossible to get to go away
+        i set the display resolution to something larger
+            stays tiny
+        try to set to fullscreen
+            still opens in tiny window
+        tried many proton versions
+    windows
+        mainly played before i did the full switch to linux
+        no issues
+
+playtime
+    20 hours
+
+progress
+    slow due to life
+    i think i am in june right now
+        i have been playing this save for a calander year or so off and on
+
+thoughts
+    story
+        i am enjoying it
+        typical persona though
+            i do not really care about the school or social aspect of these games
+
+    social links
+        fine nothing i would say hinders it
+            though it is sometimes stressful when a lot of people want to hang out and i want to max them out
+
+    social stats
+        least favorite part probably
+            though its a balancing act between the social links
+
+    dungeon progress
+        typical persona
+
+    combat
+        best thing about persona
+
+    monster fusion
+        a staple
+
+    sound track
+        bangers, as usual
+
+    language
+        i switch between japanese and english
+            english is fine
+                sometimes i just zone out and miss something because hearing it but not processing
+            japanese feels better
+                though for me sometimes i can't keep my eyes off the subtitles and i miss a visual
+
+    megaten games are my favorite, and this is up there even though i am still playing.
+    persona 3 is very well done from the combat to the visuals
+    though i wish atlus would do more shin megami instead of persona, but persona sells in the west i guess.
+
+related
+    currently-playing</pre>
+<div class="meta note-footer">
+created: 2026.09.30
+</div>
+
+  </main>
+  <script>
+document.querySelectorAll(".raw-note").forEach(note => {
+  const lines = note.textContent.replace(/\n$/, "").split("\n");
+
+  note.textContent = "";
+
+  lines.forEach(line => {
+    const match = line.match(/^(\s*)(.*)$/);
+    const spaces = match[1].replace(/\t/g, "    ").length;
+    const text = match[2];
+
+    const row = document.createElement("span");
+    row.className = "raw-line";
+    row.style.setProperty("--indent", spaces);
+
+    if (text === "") {
+      row.innerHTML = "&nbsp;";
+    } else {
+      row.textContent = text;
+    }
+
+    note.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>

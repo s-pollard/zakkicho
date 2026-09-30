@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>simulation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/css/style.css?v=20260930-2">
+</head>
+
+<body>
+  <aside>
+    <nav>
+  <a href="/" >home</a>
+  <a href="/gaming/" class="active">gaming</a>
+  <a href="/movies/" >movies</a>
+  <a href="/music/" >music</a>
+  <a href="/photography/" >photography</a>
+  <a href="/about/" >about</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="breadcrumbs">
+      
+        
+          
+            <a href="/">home</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/gaming/">gaming</a>
+          
+
+           &gt; 
+        
+          
+            simulation
+          
+
+          
+        
+      
+    </div>
+
+    <h1>simulation</h1>
+<ul>
+<li><a href="/gaming/simulation/football-manager/">football manager</a></li>
+</ul>
+
+  </main>
+  <script>
+document.querySelectorAll(".raw-note").forEach(note => {
+  const lines = note.textContent.replace(/\n$/, "").split("\n");
+
+  note.textContent = "";
+
+  lines.forEach(line => {
+    const match = line.match(/^(\s*)(.*)$/);
+    const spaces = match[1].replace(/\t/g, "    ").length;
+    const text = match[2];
+
+    const row = document.createElement("span");
+    row.className = "raw-line";
+    row.style.setProperty("--indent", spaces);
+
+    if (text === "") {
+      row.innerHTML = "&nbsp;";
+    } else {
+      row.textContent = text;
+    }
+
+    note.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>clair obscur expedition 33</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/css/style.css?v=20260930-2">
+</head>
+
+<body>
+  <aside>
+    <nav>
+  <a href="/" >home</a>
+  <a href="/gaming/" class="active">gaming</a>
+  <a href="/movies/" >movies</a>
+  <a href="/music/" >music</a>
+  <a href="/photography/" >photography</a>
+  <a href="/about/" >about</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="breadcrumbs">
+      
+        
+          
+            <a href="/">home</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/gaming/">gaming</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/gaming/rpg/">rpg</a>
+          
+
+           &gt; 
+        
+          
+            clair obscur expedition 33
+          
+
+          
+        
+      
+    </div>
+
+    <pre class="raw-note">clair obscur expedition 33
+
+status
+    dropped
+
+platform
+    steam
+
+playtime
+    ~ 10 hours
+
+progress
+    dropped
+
+design
+    world
+        one of the few things that i did enjoy
+            looks really nice, and fits with the story
+    character
+        i hated the character design
+            something about it just bothers me an ungodly amount where i don't want to play it
+    sound
+        its good
+        it fits the world
+
+gameplay
+    combat system
+        turn based
+            similar to press turn
+        parry system
+            i fucking hate this system
+            i find it to be so annoying more annoying than the horrible character design
+            it ruins the whole gameplay experience for me
+            it takes me out of it
+            ruins the immersion
+            it is not a skill issue i can parry just fine
+            i just don't want to fucking parry when i am playing a turn based rpg
+
+i think that this is just one of the games that is not for me, and i would rather have it sit in my steam library and collect dust than to suffer through it, it was a hard ten hours to get through already.</pre>
+<div class="meta note-footer">
+created: 2026.09.30
+</div>
+
+  </main>
+  <script>
+document.querySelectorAll(".raw-note").forEach(note => {
+  const lines = note.textContent.replace(/\n$/, "").split("\n");
+
+  note.textContent = "";
+
+  lines.forEach(line => {
+    const match = line.match(/^(\s*)(.*)$/);
+    const spaces = match[1].replace(/\t/g, "    ").length;
+    const text = match[2];
+
+    const row = document.createElement("span");
+    row.className = "raw-line";
+    row.style.setProperty("--indent", spaces);
+
+    if (text === "") {
+      row.innerHTML = "&nbsp;";
+    } else {
+      row.textContent = text;
+    }
+
+    note.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>

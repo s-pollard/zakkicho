@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/css/style.css?v=20260930-2">
+</head>
+
+<body>
+  <aside>
+    <nav>
+  <a href="/" {% if page.url == "/" %}class="active"{% endif %}>home</a>
+  <a href="/gaming/" {% if page.url and page.url.startsWith("/gaming/") %}class="active"{% endif %}>gaming</a>
+  <a href="/movies/" {% if page.url and page.url.startsWith("/movies/") %}class="active"{% endif %}>movies</a>
+  <a href="/music/" {% if page.url and page.url.startsWith("/music/") %}class="active"{% endif %}>music</a>
+  <a href="/photography/" {% if page.url and page.url.startsWith("/photography/") %}class="active"{% endif %}>photography</a>
+  <a href="/about/" {% if page.url and page.url.startsWith("/about/") %}class="active"{% endif %}>about</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="breadcrumbs">
+      {% if breadcrumbs %}
+        {% for crumb in breadcrumbs %}
+          {% if crumb.url %}
+            <a href="{{ crumb.url }}">{{ crumb.label }}</a>
+          {% else %}
+            {{ crumb.label }}
+          {% endif %}
+
+          {% if not loop.last %} &gt; {% endif %}
+        {% endfor %}
+      {% else %}
+        <a href="/">home</a>
+      {% endif %}
+    </div>
+
+    {{ content | safe }}
+  </main>
+  <script>
+document.querySelectorAll(".raw-note").forEach(note => {
+  const lines = note.textContent.replace(/\n$/, "").split("\n");
+
+  note.textContent = "";
+
+  lines.forEach(line => {
+    const match = line.match(/^(\s*)(.*)$/);
+    const spaces = match[1].replace(/\t/g, "    ").length;
+    const text = match[2];
+
+    const row = document.createElement("span");
+    row.className = "raw-line";
+    row.style.setProperty("--indent", spaces);
+
+    if (text === "") {
+      row.innerHTML = "&nbsp;";
+    } else {
+      row.textContent = text;
+    }
+
+    note.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>

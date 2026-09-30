@@ -1,0 +1,161 @@
+---
+layout: base.njk
+title: "death stranding 2"
+tags:
+  - game
+  - action-adventure
+breadcrumbs:
+  - label: home
+    url: /
+  - label: gaming
+    url: /gaming/
+  - label: action-adventure
+    url: /gaming/action-adventure/
+  - label: "death stranding 2"
+---
+
+<pre class="raw-note">
+death stranding 2
+
+platform: playstation 5
+playtime: 90 hours
+progress: completed
+last played: july 2025
+perspective: third person
+developer: kojima productions
+release year: 2025
+
+thoughts here will be less than death stranding
+    because this expands on it
+        and it does it well
+            most things that can be said about death stranding can be said about this as well
+    a good way of looking at death stranding 2
+        think of it as an expansion to the first
+            not because there is a lot of content, or something is lacking that it should be called a full release
+                it just flows nice from the first into the second
+
+sound
+    it takes what death stranding did well and takes it to the next level
+        everything sounds more dynamic, more movie-esque
+            i think if you liked the isolation feeling that the first one brought to the table you may feel wanting less
+        it has all the elements that the first one has
+            turns them up
+    the way the sound is presented in death stranding 2 really resonated with me
+        i enjoyed how it made the gameplay feel more dynamic
+            it matches the gameplay well too    
+
+acting
+    picking the right actors for the job
+        another homerun for kojima
+    like the first
+        every cast member does a phonomenal job
+            troy baker, lea seydoux, elle fanning, george miller, fatih akin, shioli kutsuna, alastair duncan, luca marinelli, norman reedus
+                all are outstanding
+                    even the ones i didnt name
+                again troy baker, if i  had to pick one, might be the close winner
+
+design
+    world
+        again it is a beautiful world to get lost in, explore, and build
+    character
+        characters look cool, feels like what they are wearing belongs in the world
+            again i will shout out higgs' design
+                since he is probably my favorite character
+            most of the characters are designed well
+                i want to shout out tomorrow
+                    is up there for my favorite character as well
+                        in design, and the story
+                    for me, higgs, both games combined is my favorite character
+                        tomorrow is my favorite in death stranding 2
+
+plot
+    like death stranding i will not really discuss the story because i am a firm believer that you should experience it yourself first
+    i would say it is on par with the first
+        though i might say the i enjoy the story of the first one more
+        but i was more excited to play this one
+            just because i wanted to see where kojima was going to take it
+    i would say that i really liked the story
+        it really hit me personally and truly felt a connection to it
+            with it being the writing, or the visuals
+                kojimas obsession with presenting video games like movies has always worked for me
+                    as in feeling closer to the story, and engaged
+
+gameplay
+    if you want it to play as death stranding you can play it like that
+        but it then can play so differently
+        it makes the whole thing better because all the mechanics are really expanded in this one
+        more choices to accomplish things
+        everything just feels polished
+            and well thought out
+    sam
+        not like a typical sequel were the main dude loses everything and you start from scratch
+        sam feels like he is more proficient 
+            the apas enhancement sytstem helps improve sam 
+                skill tree, works well
+    chiral network
+        same premise as death stranding
+        it is a wonderful mechanic
+        it makes you feel less lonely in a lonely game, like the first.
+        a sense of accomplishment when you setup, build, and when people use your items
+    route planning
+        again the core loop of the game
+            getting from a to b
+                it is a satisfying problem to solve
+                they expanded everything so you have more choices
+                    and more things to worry about
+    traversing the terrain
+        more ways to solve the terrain problem
+    combat
+        something i did not expect when playing
+            it felt almost like you did not want to do in death stranding
+                i would say one of the lacking aspects of the first
+            they moved it to the front, and said go for it
+                feels great, enjoyable
+                    though i much prefer the stealth method
+    stealth
+        expanded from the first
+            actually feels like you can choose between stealth and combat
+        honestly feels like a metal gear game
+            and i am all for it
+    world
+        playing death stranding then going right into the second
+            the first feels more static
+        dynamic weather with all sorts of events
+            it just makes the immersion into the game that much better
+                was something i did not know i wanted
+                    or knew that was missing
+    fast travel
+        a welcomed quality of life feature
+            feels like it fits the world
+                not like i just teleport from one spot to another
+    highlight of the game
+        it has a very satisfying loop
+            route planning
+                heading out
+                    encountering a problem
+                        solving that problem
+                            finishing the route
+            what makes it better is when you are
+                heading out
+                    you're planning out new routes
+                        for the next problem
+the gameplay for death stranding feels expected, not how i thought it was going to be, but in the fact that we are still in the death stranding world and this is the logical next step for the people that are actually living in it. the game feels like world progression was actually made, and that these are natural progression that you have at your characters fingertips.
+this sequel fixes a lot of issues that the first one had, polished them, took the jank away, and i think it makes the game better. it is a smoother experience playing this. it plays well, and i think the game is better for it. it is 100% a kojima game and some of the tropes that he uses, are here, personally i enjoy what he is putting on the screen. not everything in the story lands, and it not some perfect story being told, but it is engaging enough to want to know more, it still lands on its feet.
+
+death stranding 2 lands for me because of what the first built for the foundation of the game, even if the story of the first is slightly better.
+
+death stranding 2 
+    the amazon delivery simulator really becomes something more
+        something that connects to me
+            a sense of community
+            a sense to leave a place better than how i found it
+            a sense to be better
+                to do things i don't want to to do
+    truly a wonderful game that i think is better than the first
+        an all time game for me
+    i would not say it is perfection
+    it just hits, and it rarely misses</pre>
+
+<div class="meta note-footer">
+created: 2026.09.30
+</div>

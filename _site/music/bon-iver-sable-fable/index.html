@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bon iver — sable, fable</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/css/style.css?v=20260930-2">
+</head>
+
+<body>
+  <aside>
+    <nav>
+  <a href="/" >home</a>
+  <a href="/gaming/" >gaming</a>
+  <a href="/movies/" >movies</a>
+  <a href="/music/" class="active">music</a>
+  <a href="/photography/" >photography</a>
+  <a href="/about/" >about</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="breadcrumbs">
+      
+        
+          
+            <a href="/">home</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/music/">music</a>
+          
+
+           &gt; 
+        
+          
+            bon iver — sable, fable
+          
+
+          
+        
+      
+    </div>
+
+    <pre class="raw-note">bon iver
+sable, fable
+2025
+
+rating: 7.25
+
+...
+  NA
+
+things behind things behind things
+  7
+
+s p e y s i d e
+  7
+
+awards season
+  6
+
+short story
+  6
+
+everything is peaceful love
+  8
+
+walk home 
+  7
+
+day one
+  8
+
+from
+  8
+
+i'll be there
+  8
+
+if only i could wait
+  8
+
+there's a rhythmn
+  8
+
+au revior
+  6
+
+i don't think i have listen to this before
+second half shines
+</pre>
+<div class="meta note-footer">
+created: 2026.09.30
+</div>
+
+  </main>
+  <script>
+document.querySelectorAll(".raw-note").forEach(note => {
+  const lines = note.textContent.replace(/\n$/, "").split("\n");
+
+  note.textContent = "";
+
+  lines.forEach(line => {
+    const match = line.match(/^(\s*)(.*)$/);
+    const spaces = match[1].replace(/\t/g, "    ").length;
+    const text = match[2];
+
+    const row = document.createElement("span");
+    row.className = "raw-line";
+    row.style.setProperty("--indent", spaces);
+
+    if (text === "") {
+      row.innerHTML = "&nbsp;";
+    } else {
+      row.textContent = text;
+    }
+
+    note.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>

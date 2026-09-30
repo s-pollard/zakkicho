@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>caves of qud</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/css/style.css?v=20260930-2">
+</head>
+
+<body>
+  <aside>
+    <nav>
+  <a href="/" >home</a>
+  <a href="/gaming/" class="active">gaming</a>
+  <a href="/movies/" >movies</a>
+  <a href="/music/" >music</a>
+  <a href="/photography/" >photography</a>
+  <a href="/about/" >about</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="breadcrumbs">
+      
+        
+          
+            <a href="/">home</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/gaming/">gaming</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/gaming/roguelike/">roguelike</a>
+          
+
+           &gt; 
+        
+          
+            caves of qud
+          
+
+          
+        
+      
+    </div>
+
+    <pre class="raw-note">caves of qud
+
+status
+    playing
+
+platform
+    bazzite
+        plays wonderfully
+        no issues
+    steam deck OLED
+        need to find a control scheme for as roguelike, lol
+            i think i found one, but i might just give up since playing with keyboard is so much better
+
+playtime
+    2 hours
+
+progress
+    i have no idea what i am doing right now
+    completed the "tutorial"
+    did a few runs after that
+    did a character that respawns at the settlements
+
+thoughts
+    gameplay
+        so far i really like it
+        i know nothing so it will take some time to get it under my belt
+        the auto explore feature is nice too
+
+    controls
+        surprisingly not as bad as i thought they would be
+
+    sound
+        really good
+            some bangers in there for sure
+
+    gamemodes
+        classic
+            i have only played a few characters so far, and i don't know what i am doing, but this is really fun
+            have only done random classes
+
+        the game mode where you respawn at the settlements
+            maybe will be useful for learning the game
+            tried a character in it
+                did not feel the same as classic mode
+                was not attached to the character
+                took too many risks
+
+related
+    paths-of-achra
+    00-index</pre>
+<div class="meta note-footer">
+created: 2026.09.30
+</div>
+
+  </main>
+  <script>
+document.querySelectorAll(".raw-note").forEach(note => {
+  const lines = note.textContent.replace(/\n$/, "").split("\n");
+
+  note.textContent = "";
+
+  lines.forEach(line => {
+    const match = line.match(/^(\s*)(.*)$/);
+    const spaces = match[1].replace(/\t/g, "    ").length;
+    const text = match[2];
+
+    const row = document.createElement("span");
+    row.className = "raw-line";
+    row.style.setProperty("--indent", spaces);
+
+    if (text === "") {
+      row.innerHTML = "&nbsp;";
+    } else {
+      row.textContent = text;
+    }
+
+    note.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>

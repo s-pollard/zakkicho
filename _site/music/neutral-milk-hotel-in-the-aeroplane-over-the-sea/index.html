@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>neutral milk hotel — in the aeroplane over the sea</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/css/style.css?v=20260930-2">
+</head>
+
+<body>
+  <aside>
+    <nav>
+  <a href="/" >home</a>
+  <a href="/gaming/" >gaming</a>
+  <a href="/movies/" >movies</a>
+  <a href="/music/" class="active">music</a>
+  <a href="/photography/" >photography</a>
+  <a href="/about/" >about</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="breadcrumbs">
+      
+        
+          
+            <a href="/">home</a>
+          
+
+           &gt; 
+        
+          
+            <a href="/music/">music</a>
+          
+
+           &gt; 
+        
+          
+            neutral milk hotel — in the aeroplane over the sea
+          
+
+          
+        
+      
+    </div>
+
+    <pre class="raw-note">neutral milk hotel
+in the aeroplane over the sea
+1998
+
+rating: 6.6
+
+king of carrot flowers, pt 1
+    8
+    favorite track
+
+king of carrot flower, pt 2 & 3
+    5
+
+in the aeroplane over the sea
+    7
+
+two-handed boy
+    6
+
+the fool
+    7
+
+holland, 1945
+    7
+
+communist daughter
+    7
+
+oh comely
+    6
+
+ghost
+    7
+
+[untitled]
+    7
+    
+two-headed boy, pt 2
+    6
+
+i have known of neutral milk hotel from the /mu/ memes
+not this first time listening to this album
+    though i couldn't tell you anything about it besides the self titled song
+
+
+a solid album with a great starter track.
+    i just wish it was more like that</pre>
+<div class="meta note-footer">
+created: 2026.09.30
+</div>
+
+  </main>
+  <script>
+document.querySelectorAll(".raw-note").forEach(note => {
+  const lines = note.textContent.replace(/\n$/, "").split("\n");
+
+  note.textContent = "";
+
+  lines.forEach(line => {
+    const match = line.match(/^(\s*)(.*)$/);
+    const spaces = match[1].replace(/\t/g, "    ").length;
+    const text = match[2];
+
+    const row = document.createElement("span");
+    row.className = "raw-line";
+    row.style.setProperty("--indent", spaces);
+
+    if (text === "") {
+      row.innerHTML = "&nbsp;";
+    } else {
+      row.textContent = text;
+    }
+
+    note.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>
