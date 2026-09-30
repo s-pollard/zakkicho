@@ -1,0 +1,19 @@
+---
+layout: base.njk
+---
+
+<article class="photo-entry">
+  <h1>{{ title }}</h1>
+
+  <div class="photo-meta">
+    {% if camera %}{{ camera }}{% endif %}
+    {% if focal_length %} · {{ focal_length }}{% endif %}
+    {% if aperture %} · {{ aperture }}{% endif %}
+    {% if shutter %} · {{ shutter }}{% endif %}
+    {% if iso %} · iso {{ iso }}{% endif %}
+  </div>
+
+  <div class="photo-image">
+    {{ content | safe }}
+  </div>
+</article>

@@ -1,12 +1,19 @@
 export default function (eleventyConfig) {
+  // passthrough copies
   eleventyConfig.addPassthroughCopy("content/css");
 
+  eleventyConfig.addPassthroughCopy({
+    "content/photography/images": "photography/images"
+  });
+
+  // alphabetical title sorting
   eleventyConfig.addFilter("sortByTitle", (items) =>
     [...items].sort((a, b) =>
       (a.data.title || "").localeCompare(b.data.title || "")
     )
   );
 
+  // sitemap tree
   eleventyConfig.addFilter("sitemapLines", (items) => {
     const root = {
       children: {}

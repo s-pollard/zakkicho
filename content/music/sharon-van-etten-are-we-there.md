@@ -27,11 +27,17 @@ our love
 tarifa
   7
 i love you but i'm lost
+  6
 you know me well
+  7
 break me
+  7
 nothing will change
+  7
 i know
+  6
 every time the sun comes up
+  9
 
 i think i have heard a song or two before
 

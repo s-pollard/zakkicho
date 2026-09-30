@@ -299,3 +299,20 @@ hr {
   background: rgba(139, 47, 37, 0.18);
   color: var(--ink);
 }
+
+.photo-entry img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.photo-image {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.photo-meta {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
