@@ -14,7 +14,7 @@ breadcrumbs:
   - label: "dark souls"
 ---
 
-# dark souls
+dark souls
 
 platform:  
 playtime:  
@@ -24,19 +24,19 @@ perspective:
 developer:  
 release year:  
 
-## design
+design
 
-## world
+world
 
-## characters
+characters
 
-## sound
+sound
 
-## gameplay
+gameplay
 
-## thoughts
+thoughts
 
-## related
+related
 
 <div class="meta note-footer">
 created: 2026.09.30
