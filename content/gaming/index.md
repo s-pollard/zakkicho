@@ -9,6 +9,8 @@ breadcrumbs:
 
 # gaming
 
+<div class="index-page">
+
 ## hardware
 
 - [hardware](/gaming/hardware/)
@@ -21,3 +23,5 @@ breadcrumbs:
 - [simulation](/gaming/simulation/)
 - [strategy](/gaming/strategy/)
 - [survival](/gaming/survival/)
+
+</div>

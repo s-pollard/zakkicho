@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: music
+pageClass: index-page
 templateEngineOverride: njk,md
 breadcrumbs:
   - label: home

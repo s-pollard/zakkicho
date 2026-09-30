@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="/css/style.css?v=20260930-2">
 </head>
 
-<body>
+<body{% if pageClass %} class="{{ pageClass }}"{% endif %}>
   <aside>
     <nav>
   <a href="/" {% if page.url == "/" %}class="active"{% endif %}>home</a>
