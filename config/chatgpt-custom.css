@@ -1,0 +1,19 @@
+nav button .text-fade-truncate {
+    color: #8ec07c !important;
+}
+
+[data-sidebar-chatgpt-conversation-key],
+[data-sidebar-chatgpt-conversation-key] * {
+    color: #cba6f7 !important;
+}
+
+[data-app-action-sidebar-project-label],
+[data-app-action-sidebar-project-label] * {
+    color: #f38ba8 !important;
+}
+
+/* pinned conversations */
+[data-pinned-content-tab-drop-key],
+[data-pinned-content-tab-drop-key] * {
+    color: #f9e2af !important;
+}
