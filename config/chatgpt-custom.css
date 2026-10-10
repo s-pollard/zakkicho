@@ -1,3 +1,14 @@
+/* tokyo night text selection */
+::selection {
+    background: #33467c !important;
+    color: #c0caf5 !important;
+}
+
+::-moz-selection {
+    background: #33467c !important;
+    color: #c0caf5 !important;
+}
+
 nav button .text-fade-truncate {
     color: #8ec07c !important;
 }
